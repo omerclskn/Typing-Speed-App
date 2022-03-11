@@ -1,0 +1,57 @@
+.home-wrapper {
+  height: 100%;
+  margin: 5%;
+  .word-list-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #efefef;
+    .word-list {
+      span {
+        font-size: 1.5em;
+        display: inline-block;
+        margin-right: 7px;
+        padding: 5px;
+        &.highlight {
+          background: #dddddd;
+          border-radius: 3px;
+        }
+        &.error-box {
+          background: #ff0000;
+          border-radius: 3px;
+        }
+        &.error {
+          color: #ff0000;
+        }
+        &.correct {
+          color: #008000;
+        }
+      }
+    }
+  }
+
+  .input-wrapper {
+    display: flex;
+    gap: 40px;
+    .reload-button {
+      margin-right: 40px;
+    }
+  }
+  .timer {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    color: #fff;
+    border-color: #1890ff;
+    background: #1890ff;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    &.time-up {
+      background: #ff0000;
+      border-color: #ff0000;
+    }
+  }
+}
