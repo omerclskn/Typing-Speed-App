@@ -4,6 +4,7 @@ Typing-Speed-App in React and Express.js
 * Server side implemented with Express.js
 * Server link tr : [Turkish Words](https://omerc-typing-speed-api.netlify.app/.netlify/functions/server/getWords/tr)
 * Server link en : [English Words](https://omerc-typing-speed-api.netlify.app/.netlify/functions/server/getWords/en)
+* Server returns 150 random words every request
 
 ------------------------------------
 
